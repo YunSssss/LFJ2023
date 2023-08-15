@@ -152,6 +152,7 @@ void AMainPlayerCharacter::SetCharacterStop()
 
 void AMainPlayerCharacter::SetCharacterWalk()
 {
+
 	GetCharacterMovement()->MaxWalkSpeed = 500.0f;
 }
 
