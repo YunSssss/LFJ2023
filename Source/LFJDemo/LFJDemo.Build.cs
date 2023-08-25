@@ -10,7 +10,7 @@ public class LFJDemo : ModuleRules
 	
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" , "EnhancedInput"});
 
-		PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" , "GameplayAbilities", "GameplayTags", "GameplayTasks", "AnimGraphRuntime" });
+		PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" , "AIModule", "GameplayAbilities", "GameplayTags", "GameplayTasks", "AnimGraphRuntime" });
 
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
